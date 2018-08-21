@@ -12,7 +12,7 @@ ms.date: 04/09/2018
 monikerRange: 'vsts'
 ---
 
-# Deploy to an Azure Web App for Containers
+# Deploy to an Azure Kubernetes Service
 
 We'll show you how to set up continuous deployment of your containerized application to an Azure Kubernetes Service (AKS) using
 Azure Pipelines.
@@ -40,9 +40,9 @@ To set up a CI build process, see:
 
 You'll need an Azure subscription. You can get one free through [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/).
 
-[!INCLUDE [create-azure-webapp-to-host-container](../_shared/create-azure-webapp-to-host-container.md)]
+[!INCLUDE [create-azure-webapp-to-host-container](../_shared/create-aks-to-host-container.md)]
 
-[!INCLUDE [create-release-azure-webapp-container](../_shared/create-release-azure-webapp-container.md)]
+[!INCLUDE [create-release-azure-webapp-container](../_shared/create-release-aks.md)]
 
 ## Next steps
 
