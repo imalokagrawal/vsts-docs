@@ -28,8 +28,6 @@ https://github.com/adventworks/dotnetcore-k8s-sample
 
 ```
 
-Follow the guidance in [.NET Core](../languages/dotnet-core.md) to build the sample code.
-
 
 ## Define your CI build process
 
