@@ -417,6 +417,11 @@ Defines and secures a connection to a [Kubernetes](https://kubernetes.io/docs/ho
 | Kubeconfig | The contents of the kubectl configuration file. |
 <p />
 
+If you do not have Kubeconfig or wish to create Kubernetes connection using service account, additionally provide:
+
+| Token | The token for authenticating to Kubernetes. Use the ‘kubectl get serviceaccounts -o yaml’ and ‘kubectl get secret -o yaml’ commands to get the token. |
+| Certificate | The ca.cert content if the Kubernetes API is using a TLS certificate. Use the ‘kubectl get serviceaccounts -o yaml’ and ‘kubectl get secret -o yaml’ commands to get the ca.cert content. |
+
 [How do I create a new service connection?](#create-new)
 
 *****
