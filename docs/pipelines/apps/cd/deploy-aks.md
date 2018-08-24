@@ -62,11 +62,7 @@ The AKS cluster you created here will host an instance of that image and expose 
 
 1. In the **Build &amp; Release** hub, open the build summary for your build.
 
-   ![Opening the build summary](_img/open-build-summary.png)
-
 2. In the build summary page, choose the **Release** icon to start a new release pipeline.
-
-   ![Starting a new release pipeline from a build summary](_img/release-from-build-summary.png)
 
    If you have previously created a release pipeline that uses these build artifacts, you will
    be prompted to create a new release instead. In that case, go to the **Releases** tab page and
